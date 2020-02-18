@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color: #084154;
+    margin: 0;
+    font-size: 32px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+h3{
+    color: #084154;
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+sup{
+    font-size: 50%;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 1196px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jst-btwn {
+    justify-content: space-between;
+}
+
+.alg-itm {
+    align-items: center;
+}
+
+.menu{
+    width: 100%;
+    padding: 40px 0;
+    position: absolute;
+    
+}
+
+.jogos{
+    position: relative;
+    top: -30px;
+}
+
+.quadrado{
+    width: 23px;
+    height: 23px;
+    background-color: #3EC6E0;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.preco{
+    color: #084154;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.produtos-destaque{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
+
+.produto img{
+    margin-bottom: 30px;
+}
+
+.produto a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: #3EC6E0;
+    display: inline-block;
+    text-align: center;
+}
+
+.rodape-logo{
+    width: 25%;
+    height: 100px;
+    background-color: #084154;
+}
+
+.rodape-texto{
+    width: 75%;
+    height: 100px;
+    background-color: #3EC6E0;
+    color: #FFFFFF;
+}
+
+
+#banner img{
+    width: 100%;
+    
+}
+
+
+
