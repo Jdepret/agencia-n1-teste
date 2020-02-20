@@ -53,7 +53,7 @@ sup{
     width: 100%;
     padding: 40px 0;
     position: absolute;
-    z-index: 1;
+    z-index: 10;
     
 }
 
@@ -162,15 +162,14 @@ sup{
 
 .texto-banner{
     color: #FFFFFF;
-    text-align: right; 
+    text-align: right;   
       
 }
 
 .texto-banner .container {
+    width: 420px; 
     position: absolute;
-    top: 150px;
-    width: 35%; 
-    left: 60%;
+    top: 30%;  
     
 }
 
@@ -178,6 +177,7 @@ sup{
     color: #3EC6E0;
     font-size: 80px;
     font-weight: bold;
+    margin: 0;
 
 }
 
@@ -272,6 +272,44 @@ sup{
     h2{
         font-size: 20px;
     }
+
+
+    .dropdown{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: -16%;
+        left: 0;
+        flex-direction: column;
+        justify-content: unset;
+        padding-top: 150px;
+    }
+
+    .coluna-submenu{
+        border-bottom: 1px solid #003344;
+    }
+
+    .coluna-submenu:last-child{
+        border-bottom: none;
+    }
+
+    .dropdown ul li{
+        padding: 15px 0;
+        
+    }
+
+    .dropdown ul li:hover{
+        background-color: #3EC6E0;
+        color: #084154;
+    }
+
+    .dropdown ul li a:hover{
+        color: #084154;
+        font-weight: bold;
+    }
+
+
+
     .coluna span{
         display: none;
     }
@@ -282,13 +320,16 @@ sup{
 
     .navegacao{
         position: unset;
-        display: flex;        
+        display: flex;   
+           
     }
 
     .nome-jogo{
         width: 60%;
         height: 67px;
         font-size: 14px;
+        display: flex;
+        align-items: center;
     }
 
     .nome-jogo p{
@@ -300,6 +341,18 @@ sup{
         width: 40%;
         height: 67px;
         font-size: 18px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 0;
+
+    }
+
+    .setas input{
+        padding-top: 0;
+        margin-left:25px
+        
     }
 
     .jogos{
