@@ -3,6 +3,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+h1{
+    margin: 0;
+    font-size: 50px;
+
+}
+
 h2{
     color: #084154;
     margin: 0;
@@ -46,12 +53,146 @@ sup{
     width: 100%;
     padding: 40px 0;
     position: absolute;
+    z-index: 1;
     
+}
+
+.submenu{
+    display: none;
+}
+
+.dropdown{
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #084154;
+    border: solid 2px #3EC6E0;
+    width: 450px;
+    padding: 40px;
+    margin-top: 20px;
+
+}
+
+.dropdown a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.dropdown ul{
+    list-style: none;
+   margin:0;
+   padding:0;
+}
+
+.dropdown ul li{
+
+    margin-bottom: 25px;
+}
+
+.dropdown strong {
+    font-size: 16px;
+}
+
+.coluna{
+    color: #FFFFFF;
+}
+
+.coluna img{
+    margin-right: 50px;
+}
+
+.coluna a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 40px;
+}
+
+.coluna a:last-child{
+    margin-right: 0;
+}
+
+.coluna a img{
+    margin-right: 15px;
+}
+
+
+
+.slide img{
+    width: 100%;
+}
+
+.navegacao{
+    position: absolute;
+    top: 10%;
+    left: 92%;
+    z-index: 2;
+    color: #fff;
+   
+}
+
+.nome-jogo{
+    width: 100px;
+    height: 300px;
+    background-color: #3EC6E0;
+    font-size: 18px;
+
+}
+
+.nome-jogo p{
+    transform: rotate(90deg);
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+.setas{
+    width: 100px;
+    height: 117px;
+    background-color: #084154;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    
+}
+
+.setas input{
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
+
+
+.texto-banner{
+    color: #FFFFFF;
+    text-align: right; 
+      
+}
+
+.texto-banner .container {
+    position: absolute;
+    top: 150px;
+    width: 35%; 
+    left: 60%;
+    
+}
+
+.preco-banner{
+    color: #3EC6E0;
+    font-size: 80px;
+    font-weight: bold;
+
 }
 
 .jogos{
     position: relative;
     top: -30px;
+}
+
+.banner-jogo{
+    width: 49%;    
+}
+
+.banner-jogo img{
+    width: 100%;
+    
 }
 
 .quadrado{
@@ -74,6 +215,10 @@ sup{
     width: 100%;
     margin-top: 60px;
     margin-bottom: 250px;
+}
+
+.produto{
+    margin-bottom: 50px;
 }
 
 .produto img{
@@ -100,6 +245,14 @@ sup{
     width: 25%;
     height: 100px;
     background-color: #084154;
+    grid-column-end: 2;
+    padding-left: 15%;
+    padding-right: 35px;
+    box-sizing: border-box;
+}
+
+.rodape img{
+    min-width: 50px;
 }
 
 .rodape-texto{
@@ -107,13 +260,70 @@ sup{
     height: 100px;
     background-color: #3EC6E0;
     color: #FFFFFF;
+    padding-left: 35px;
+    box-sizing: border-box;
+   
 }
 
 
-#banner img{
-    width: 100%;
-    
+
+@media screen and (max-width:767px){
+ 
+    h2{
+        font-size: 20px;
+    }
+    .coluna span{
+        display: none;
+    }
+
+    .coluna a{
+        margin: 0;
+    }
+
+    .navegacao{
+        position: unset;
+        display: flex;        
+    }
+
+    .nome-jogo{
+        width: 60%;
+        height: 67px;
+        font-size: 14px;
+    }
+
+    .nome-jogo p{
+        transform: rotate(0);
+        padding-left: 30px;
+    }
+
+    .setas{
+        width: 40%;
+        height: 67px;
+        font-size: 18px;
+    }
+
+    .jogos{
+        position: unset;
+        margin-bottom: 60px;
+    }
+
+    .banner-jogo{
+         width: 100%; 
+    }
+
+    .banner-jogo img{
+        margin-top: 20px;
+    }
+
+    .produto{
+        width:284px; 
+        
+    }
+
+  
 }
+
+
 
 
 
